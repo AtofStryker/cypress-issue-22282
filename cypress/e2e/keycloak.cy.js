@@ -37,7 +37,7 @@ describe('keycloak', () => {
     );
 
     // should redirect with a valid code in the url
-    cy.get('#user-details').contains('my user')
+    cy.get('#user-details').contains('myuser')
   })
 
 

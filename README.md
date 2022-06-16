@@ -4,7 +4,8 @@
 * Be sure to keep the docker image running on port 8080. Killing the docker image will result in all configurations lost.
 * When creating the user password, set the password to `testme1234` and toggle off temporary.
 * Set the Root URL / Admin URL on the client to `http://localhost:8080`
-* Set Valid Redirect URIs to `http://localhost:8081/*`
+* Set Valid Redirect URIs to `*`
+* Set Web Origins to `*`
 
 * Inside the project directory, run `yarn`.
 * Spin up the dev server by running `yarn serve`
