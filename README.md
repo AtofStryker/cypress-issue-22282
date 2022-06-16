@@ -11,3 +11,5 @@
 * Spin up the dev server by running `yarn serve`
 * In another terminal, run `yarn cypress open` and execute the `keycloak.cy.js` test.
 * Notice the webapp redirect to KeyCloak and back to main webapp through `cy.origin`
+
+![keycloak-redirect](https://user-images.githubusercontent.com/3980464/173689299-4bcfc4d3-f224-4156-96f7-3f7129779867.gif)
